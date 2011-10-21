@@ -1,0 +1,870 @@
+@font-face {
+ font-family: Akkurat;
+ src: url("font/Akkurat-Bold.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: Akkurat;U
+ src: url("font/Akkurat-Bold.ttf") /* TTF file for CSS3 browsers */
+}
+
+/* body
+--------------------------------------------------*/
+body {
+font-family: 'Droid Serif', Georgia, verdana, geneva, sans-serif;
+color:#333;Ful
+margin:0;
+}
+
+* {
+margin:0;
+padding:0;
+}
+
+code {
+font-size:0.9em; "Courier New", "Lucida Console", Arial;
+}
+
+.small_text{
+font-size:0.7em;
+}
+
+.red {
+color:red;
+}
+
+.white {
+color:white;
+}
+
+
+/* header
+--------------------------------------------------*/
+#header {
+border-top:30px solid #fff;
+
+}
+
+#header .description {
+float:right;
+color:#333;
+margin:45px 0 0;
+}
+
+#header h1 {
+border-bottom:3px solid #EFF8FB;
+margin:15px 0 0;
+padding:25px 25px 40px 0;
+}
+
+#header a {
+color:#fff;
+}
+
+#header img a:hover, #header img a:visited {
+color:#fff;
+}
+
+/* IE7 fix ------*/
+
+#header img {
+border:0;
+}
+
+
+
+
+#wrapper {
+width:900px;
+margin:0 auto;
+}
+
+/* ----------- header h1 (blogtitle)  ------------------*/
+
+
+#header h1 {
+font-family:Akkurat, "Lucida Sans Unicode", "Times New Roman", Times, serif;
+font-size:1.8em;
+font-weight:400;
+color:#333;
+letter-spacing:-1px;
+margin:20px 0;
+}
+
+#header h1 a {
+text-decoration:none;
+color:#333;
+}
+
+
+.linetop {
+background-image: url(./images/thinline.png);
+background-repeat:no-repeat;
+color:#fff;
+
+}
+
+.linebottom{
+background-image: url(./images/thinline.png);
+background-repeat:no-repeat;
+margin-top:10px;
+color:#fff;
+}		
+
+
+
+#social {
+
+}
+
+#social img{
+padding-top:4px;
+margin-right:5px;
+}
+
+#social-text{
+font-size:0.7em;
+padding-top:4px;
+color:#333;
+margin-right:3px;
+
+}
+
+/* navigation
+--------------------------------------------------*/
+#nav {
+
+height:10px;
+margin:15px 0 0 0;
+padding:5px 0;
+
+}
+
+#nav li {
+float:left;
+list-style:none;
+padding:0 10px 0 0;
+}
+
+#nav li a {
+color:#999;
+background:#fff;
+font:0.7em 'Droid Serif', Georgia, verdana, geneva, sans-serif;
+text-decoration:none;
+display:block;
+margin:1px 2px 0 0;
+padding:5px;
+}
+
+#nav li a:hover {
+text-decoration:none;
+color:#000
+}
+
+#nav li a:hover img {
+background-image: url(./images/buttonindicator.png);
+background-repeat:no-repeat;
+padding-top:15px;
+}
+
+#nav li a.active {
+background-color:#eee;
+color:#444;
+text-decoration:none;
+}
+
+
+
+.clear {
+clear:both;
+}
+
+/* content
+--------------------------------------------------*/
+
+
+#content p.announcement, #sidebar p.announcement{
+font-size:0.85em;
+color:#333;
+word-spacing:1px;
+line-height:25px;
+}
+
+h5 {
+font-family:Akkurat, "Lucida Sans Unicode", "Times New Roman", Times, serif;
+font-size:1.2em;
+color:#000;
+
+}
+
+h6 {
+font-family:Akkurat, "Lucida Sans Unicode", "Times New Roman", Times, serif;
+font-size:1.4em;
+color:#000;
+
+}
+
+h7 {
+font-family:Akkurat, "Lucida Sans Unicode", "Times New Roman", Times, serif;
+font-size:1.1em;
+color:#333;
+line-height:19px;
+
+}
+
+p.content-header {
+font-size:0.9em;
+line-height:1.2em;
+color:#333;
+border-bottom:1px solid #ccc;
+border-top:1px solid #ccc;
+margin:10px 0 28px 0;
+padding:10px;
+
+}
+
+#content {
+margin:0 250px 0 0 !important;
+padding:10px 20px 0px 0;
+width:500px;
+}
+
+#content2 {
+margin:0 !important;
+padding:10px 0 0px;
+}
+
+#content3 {
+margin:0 250px 0 0 !important;
+padding:10px 20px 0px 0;
+width:600px;
+
+}
+
+#content p {
+line-height:1.2em;
+font-size:0.9em;
+word-spacing:1px;
+margin:31px 0;
+}
+
+#content2 p {
+line-height:1.2em;
+font-size:0.9em;
+word-spacing:1px;
+margin:15px 0;
+}
+
+
+
+
+#content a
+
+text-decoration:none;
+color:#999;
+}
+
+#content a:hover,#content2 a:hover {
+background-color:#fff;
+color:#000;
+}
+
+#content h2,#content2 h2 {
+font-family:"Lucida Grande", "Lucida Sans Unicode", Trebuchet MS;
+font-size:2.8em;
+font-weight:400;
+color:#999;
+border-bottom:1px solid #EFF8FB;
+line-height:30px;
+margin:15px 0;
+padding:5px 0;
+}
+
+#content h2 a,#content2 h2 a {
+text-decoration:none;
+border:none;
+}
+
+#content h1 {
+font:3em "Lucida Grande", "Lucida Sans Unicode", Trebuchet MS;
+color:#222;
+margin:10px 0;
+}
+
+#content h3 {
+font:2em "Lucida Grande", "Lucida Sans Unicode", Trebuchet MS;
+color:#222;
+margin:10px 0;
+}
+
+#content h4 {
+font:1.8em "Lucida Grande", "Lucida Sans Unicode", Trebuchet MS;
+color:#222;
+margin:10px 0;
+}
+
+#content h5 {
+font:1.6em Akkurat, "Lucida Sans Unicode", "Times New Roman", Times, serif;
+color:#222;
+margin:10px 0;
+}
+
+#content2 h3 {
+font:1.2em Akkurat, "Lucida Sans Unicode", "Times New Roman", Times, serif;
+color:#222;
+margin:10px 0;
+}
+
+#content ul,ol {
+margin:10px 10px 10px 25px;
+}
+
+#content2 ul,ol {
+margin:10px 10px 10px 25px;
+}
+
+
+/* list template
+--------------------------------------------------*/
+
+#content3 #list-header {
+margin-bottom:20px;
+}
+
+
+/* blockquote + links
+--------------------------------------------------*/
+
+blockquote {
+background:#EFF8FB;
+border:1px solid #ccc;
+margin:10px 0;
+padding:5px 15px;
+}
+
+a:hover {
+color:#000;
+text-decoration:none;
+background-color:#EFF8FB;
+}
+
+a.more {
+display:block;
+text-align:right;
+color:#2F460D;
+text-decoration:none;
+margin:10px 0 0;
+}
+
+a.more:hover {
+text-decoration:none;
+}
+
+/* metadata under post
+--------------------------------------------------*/
+.post {
+margin-bottom: 40px;
+text-align:left;
+/*
+border-style:outset;
+border-color: red;
+*/
+border-width:1px;
+
+overflow: auto;
+}
+
+.post-list{
+text-align:left;
+border-width:1px;
+margin-bottom:30px;
+}
+
+.list-underline{
+border-bottom:1px dotted #ccc;
+margin-bottom:3px;
+line-height:30px;
+}
+
+#content p.post-new {
+margin:5px 3px 0 10px;
+font-size:0.8em;
+line-height:15px;
+}
+
+
+p.post-info{
+border-top:1px solid #ccc;
+padding:4px;
+margin:10px;
+font-size:0.9em;
+}
+.changetext{
+font-size:1.1em;
+color:#333;
+}
+
+.post .linepost, .linepost{
+border-bottom:1px solid #ccc;
+
+margin-bottom: 4px;
+margin-top: 4px;
+line-height: 1px;
+
+color:#fff;
+}
+
+
+
+.post .postSpeechBubble {
+padding-right:3px;
+float:right;
+}
+
+#content  .post .postSpeechBubble a {
+color: #333;
+float:right;
+}
+
+.entry{
+margin:0;
+padding:0;
+}
+
+.commentsLine{
+border-top-color:grey;
+border-top-style:outset;
+border-top-width:1px;
+
+}
+.changetext a{
+
+}
+
+.entry img {
+background:#fff;
+border-style:none;
+padding-right:10px;
+padding-bottom:10px;
+}
+
+
+.entry .left_image {
+margin-right:20px;
+}
+
+.left_image img {
+  width: 270px;
+}
+
+.entry .right_content{
+  margin-left:10px;
+  height: 119px;
+}
+
+.entry .right_content p{
+  padding-left:0;
+}
+
+.entry .right_content .post-new {
+  height: 88px;
+  overflow: hidden;
+}
+
+#content3 .entry p  {
+
+
+}
+
+
+
+#content3 .entry ul{
+}
+
+#content3 .entry li{
+margin-bottom:7px;
+}
+
+#content3 .post p {
+/*font-size:0.9em;
+line-height:1.3em; */
+color: #333;
+padding: 2px 3px 3px 0px;
+margin-top: 5px;
+}
+
+.post H3 {
+margin-top: 10px;
+}
+
+#content .post a {
+color: #cc0000;
+}
+
+
+#content .post a:hover{
+color:#333;
+}
+
+#content .post a:visited{
+color:#999;
+}
+
+
+#content ,post h6 a{
+color: #333;
+}
+
+#content .post h7 a {
+color: #333;
+}
+
+
+#content .post a:hover,a:active {
+color: #000;
+}
+
+.date {
+margin: 0 0 15px 0;
+}
+
+.post small {
+margin-top:25px;
+}
+
+/* list page 
+-------------------*/
+
+#content ul.project_holder {
+list-style: none;
+margin-left: 0;
+
+
+}
+
+#content li.project-item {
+margin:10px 0;
+border: 1px solid green; 
+width:600px;
+height:150px;
+
+}
+
+
+/* metadata sidebar ('about this post')
+--------------------------------------------------*/
+p.news {
+background:#EFF8FB;
+color:#333;
+border-bottom:1px solid #ccc;
+border-top:1px solid #ccc;
+margin:10px 0 28px;
+padding:10px;
+}
+
+/* sidebar
+--------------------------------------------------*/
+#sidebar {
+width:365px;
+float:right;
+padding:10px 10px 30px;
+height:100%;
+
+}
+
+sidebar2 {
+height:800px;
+}
+
+#sidebar3 {
+width:200px;
+float:right;
+padding:10px 10px 30px;
+height:100%;
+
+}
+
+#sidebar3 p {
+font-size:0.8em;
+
+}
+
+
+#sidebar img, #sidebar3 img{
+color:#fff;
+border-style:none;
+text-decoration:none;
+
+}
+
+
+
+#sidebar h2, #sidebar3 h2 {
+letter-spacing:1px;
+font-size:1.0em;
+color:#333;
+padding:0 0 3px;
+}
+
+#sidebar ul, #sidebar3 ul {
+font-size:0.75em;
+list-style:none;
+margin:0 0 23px;
+}
+
+#sidebar li, #sidebar3 li {
+border-bottom:1px solid #EFF8FB;
+list-style:none;
+padding:3px;
+}
+
+#sidebar li a:hover, #sidebar3 li a:hover {
+color:#000;
+background-color:#EFF8FB;
+}
+
+#sidebar input {
+width:102px;
+background:#fff;
+color:#444;
+border:1px solid #eee;
+font:0.9em "Lucida Grande", "Lucida Sans Unicode", Trebuchet MS;
+padding:3px;
+}
+
+#sidebar input:focus {
+background:#fff;
+border:1px solid #eee;
+}
+
+/* some input
+--------------------------------------------------*/
+
+
+/* comments
+--------------------------------------------------*/
+#comments {
+font-size:0.9em;
+}
+
+#commentlist li {
+margin-bottom:1.5em;
+padding-bottom:1em;
+}
+
+#commentform {
+font-size:0.8em;
+background:#fff;
+width:350px;
+text-align:left;
+margin:0 0 15px 0;
+}
+
+#commentform textarea {
+background:#f8f7f6;
+border:1px solid #d6d3d3;
+width:490px;
+font: 0.8em "Lucida Grande", "Lucida Sans Unicode", Trebuchet MS;
+}
+
+#commentform #email,#commentform #author,#commentform #url {
+font-size:0.8em;
+background:#f8f7f6;
+border:1px solid #d6d3d3;
+width:350px;
+}
+
+#commentform input {
+
+}
+
+#gravatar {
+align:right;
+}
+
+
+/* contact form -------------------------------------*/
+
+#contactForm {
+
+}
+
+.post-page .contactForm {
+
+
+}
+
+
+
+#contactForm input {
+border-radius: 5px;
+-moz-border-radius: 5px;
+-webkit-border-radius:5px;
+padding-top:5px;
+padding-bottom:5px;
+width:160px;
+font-size:0.85em;
+}
+
+#contactForm .wpcf7-response-output{
+width:600px;
+font-size:0.8em;
+
+
+
+}
+
+#stylized .labelText {
+font-size:0.8em;
+
+}
+
+#stylized .small{
+color:#666666;
+display:block;
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:140px;
+}
+
+/* overons 
+--------------------------------------------------*/
+
+
+#overOns {
+margin-top:0px;
+margin-bottom:10px;
+padding:0px;
+height: 300x;
+overflow: auto;
+}
+
+#overOns img {
+
+padding-top:6px;
+padding-left:6px;
+padding-right:6px;
+padding-bottom:6px;
+border:1px solid #d6d3d3;
+margin:2px 2px;
+display:block;
+}
+
+#overOns .imageHolder {
+float:left;
+width:112px;
+font-size:0.8em;
+margin-bottom:10px;
+}
+
+#overOns .overOns_name {
+margin-left:7px;
+
+}
+
+
+/* wp stuff
+--------------------------------------------------*/
+
+.aligncenter {
+display:block;
+margin-left:auto;
+margin-right:auto;
+}
+
+.alignleft {
+float:left;
+}
+
+.alignright {
+float:right;
+}
+
+#content .navigation, #content .navigation a{
+font-size:0.9em;
+text-align:center;
+}
+
+
+
+.wp-caption {
+border:1px solid #ddd;
+text-align:center;
+background-color:#f3f3f3;
+padding:4px 0 0 0;
+-moz-border-radius:3px;
+-khtml-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+margin:10px;
+}
+
+.wp-caption img {
+border:0 none;
+margin:0;
+padding:0;
+}
+
+
+.wp-caption-dd {
+font-size:0.8em;
+line-height:1.1em;
+margin:0;
+padding:0 4px 5px;
+}
+
+#header h1 a:hover,#footer a:hover {
+text-decoration:none;
+color:#333;
+background:#EFF8FB;
+}
+
+#content li,#content2 li {
+/* border-bottom:1px solid #EFF8FB; */
+padding:10px;
+font-size:0.9em;
+
+}
+
+a,#sidebar li a,#footer a {
+color:#999;
+text-decoration:none;
+
+}
+
+/* footer
+--------------------------------------------------*/
+.clear {
+clear:both;
+}
+
+.clearleft{
+clear:left;
+
+}
+
+#footer_credits{
+float:left;
+margin-left:150px;
+margin-top:8px;
+
+
+}
+
+#footer_image{
+float:left;
+}
+
+#footer-link{
+margin-top:7px;
+float:right;
+font-size:0.7em;
+}
+
+
+#footer {
+clear:both;
+color:#333;
+margin:0;
+padding:5px 0 10px 0;
+}
