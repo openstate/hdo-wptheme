@@ -22,22 +22,6 @@ if ( is_home() ) {
 
 <?php while (have_posts()) : the_post(); ?>
 
- 
-    <script>
-      window.fbAsyncInit = function() {
-        FB.init({appId: '139916676066732', status: true, cookie: true,
-                 xfbml: true});
-      };
-      (function() {
-        var e = document.createElement('script');
-        e.type = 'text/javascript';
-        e.src = document.location.protocol +
-          '//connect.facebook.net/en_US/all.js';
-        e.async = true;
-        document.getElementById('fb-root').appendChild(e);
-      }());
-    </script>
-
 <div class="post" id="post-<?php the_ID(); ?>">
 
      <div class="entry">
@@ -96,6 +80,21 @@ if (preg_match($regex, $old_content, $matches)) {
 <?php get_footer(); ?>
 
 </div>
+
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({appId: '139916676066732', status: true, cookie: true,
+             xfbml: true});
+  };
+  (function() {
+    var e = document.createElement('script');
+    e.type = 'text/javascript';
+    e.src = document.location.protocol +
+      '//connect.facebook.net/en_US/all.js';
+    e.async = true;
+    document.getElementById('fb-root').appendChild(e);
+  }());
+</script>
 
 </body>
 
