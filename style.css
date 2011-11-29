@@ -369,8 +369,9 @@ border-style:outset;
 border-color: red;
 */
 border-width:1px;
-
+/*
 overflow: auto;
+*/
 }
 
 .post-list{
