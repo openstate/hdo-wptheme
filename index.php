@@ -35,7 +35,7 @@ if (preg_match($regex, $old_content, $matches)) {
   $img = $matches[2];
   $new_content = $matches[1] . $matches[3] ;
   print '<div class="left_image">' . $img . '</div>';
-  print '<div class="right_content"><h7><a href=" ' . $permalink  . ' " rel="bookmark" title="Permanent Link to ' . $title . '"> ' . $title . '</a></h7><p class="post-new">' . $new_content . '</p></div>';
+  print '<div class="right_content"><h6 class="really-small"><a href=" ' . $permalink  . ' " rel="bookmark" title="Permanent Link to ' . $title . '"> ' . $title . '</a></h6><p class="post-new">' . $new_content . '</p></div>';
 } else {
   // can't extract the image, do something else
 }
