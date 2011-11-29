@@ -63,9 +63,9 @@ if (preg_match($regex, $old_content, $matches)) {
 
 <?php endwhile; ?>
 
-<div class="navigation"><?php next_posts_link('&laquo; Previous Entries') ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php previous_posts_link('Next Entries &raquo;') ?></div>
+<!-- <div class="navigation"><?php next_posts_link('&laquo; Previous Entries') ?>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php previous_posts_link('Next Entries &raquo;') ?></div> -->
 
-
+<?php posts_nav_link('&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;','&laquo; Previous Entries', 'Next Entries &raquo;'); ?>
 
 <?php else : ?>
 
