@@ -35,7 +35,6 @@ $regex = '/(.*?)(\<a.*?\<img.*?\<\/a\>)(.*)/s';
 if (preg_match($regex, $old_content, $matches)) {
   $img = $matches[2];
   $new_content = $matches[1] . $matches[3] ;
-  #print '<div class="left_image">' . $img . '</div>';
 } else {
     $new_content = $old_content;
 }
@@ -46,7 +45,9 @@ if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned
 <?php the_post_thumbnail(); ?>
 </div>
 <?php
-} 
+} else {
+    print '<div class="left_image">' . $img . '</div>';
+}
 
 print '<div class="right_content"><h6 class="really-small"><a href=" ' . $permalink  . ' " rel="bookmark" title="Permanent Link to ' . $title . '"> ' . $title . '</a></h6><p class="post-new">' . $new_content . '</p></div>';
 
