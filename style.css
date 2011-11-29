@@ -404,6 +404,7 @@ color:#333;
 }
 
 .post .linepost, .linepost{
+    clear: both;
 border-bottom:1px solid #ccc;
 
 margin-bottom: 4px;
