@@ -42,7 +42,7 @@ if (preg_match($regex, $old_content, $matches)) {
 if ( has_post_thumbnail() ) { // check if the post has a Post Thumbnail assigned to it.
 ?>
 <div class="left_image">
-<?php the_post_thumbnail(); ?>
+<?php the_post_thumbnail('thumbnail'); ?>
 </div>
 <?php
 } else {
